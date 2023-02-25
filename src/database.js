@@ -1,6 +1,6 @@
 //conectar a bd
 const mongoose=require('mongoose');
-const URI ='mongodb://127.0.0.1/mern-task';//() local //(url) mongo web
+const URI ='mongodb+srv://mjt:mjttest@cluster0.zrlmqxr.mongodb.net/?retryWrites=true&w=majority';//() local //(url) mongo web
 
 mongoose.set("strictQuery", false);
 mongoose.connect(URI)
